@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON CSS END */
+
+ul, li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* NAVBAR CSS START */
+.logo {
+    width: 30%;
+    height: 100px;
+    cursor: pointer;
+}
+
+#navbar {
+    padding-top: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#navbar .nav-items {
+    width: 70%;
+}
+
+#navbar .navbar-wrapper {
+    display: flex;
+}
+
+#navbar .nav-items ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar .nav-items ul a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#navbar .nav-items ul a:hover {
+color: black;
+}
+
+#navbar .nav-items ul li:last-child a {
+    margin-right: 0px;
+}
+/* NAVBAR CSS END */
+
+/* BANNER CSS START */
+#banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 462px 0px;
+}
+
+#banner .banner-wrapper p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFC178;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+#banner .banner-wrapper h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#banner .banner-wrapper h1 span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+}
+/* BANNER CSS END */
+
+/* ABOUT CSS START */
+#about {
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 286px 0px 0px 0px; 
+}
+
+#about .about-wrapper .right-side p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+#about .about-wrapper .right-side h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 496px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#about .about-wrapper .right-side h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 600;
+    width: 587px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#about .about-wrapper .right-side a {
+    display: inline-block;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: #FFC178;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#about .about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .about-wrapper .right-side {
+    margin-top: 30px;
+}
+/* ABOUT CSS END */
+
+/* TOGETHER CSS START */
+#together {
+    background: black;
+    padding: 295px 0px; 
+}
+
+#together .together-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url(../images/image%202%201.jpg) center center/cover no-repeat;
+    padding: 559px 0px 32px 0px;
+    width: 100%;
+    height: auto;
+}
+
+#together .together-wrapper .upper-side p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+#together .together-wrapper .upper-side h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 932px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#together .together-wrapper .upper-side h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 893px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#together .together-wrapper .upper-side a {
+    display: inline-block;
+    margin-top: 26px; 
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFC178;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* TOGETHER CSS END */
+
+/* CULTURE PART START */
+#culture {
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90px 0px 0px 0px; 
+}
+
+#culture .culture-wrapper .left-side p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 128px;
+}
+
+#culture .culture-wrapper .left-side h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 663px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#culture .culture-wrapper .left-side h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    width: 655px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#culture .culture-wrapper .left-side a {
+    display: inline-block;
+    margin-top: 47px;
+    text-transform: uppercase;
+    color: #FFC178;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#culture .culture-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#culture .culture-wrapper .left-side {
+    margin-top: 30px;
+}
+/* CULTURE PART END */
+
+/* FOOTER PART START */
+
+
+#footer { 
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 199px;
+    padding-bottom: 30px;
+}
+
+#footer .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#footer .footer-top h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    letter-spacing: -0.3px;
+    line-height: 49px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 81px;
+    padding-bottom: 36px;
+    width: 405px;
+}
+
+#footer .footer-top h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 48px;
+}
+
+#footer .footer-top .icon {
+    display: flex;
+}
+
+#footer .footer-top .icon-item {
+    color: #ffffff;
+    margin-right: 25px; /* Adjust the space between icons as needed */
+
+}
+
+#footer .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+#footer .footer-left .explorer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#footer .footer-left .explorer h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: right;
+}
+
+#footer .explore-button a {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 700;
+    padding: 18px 67px;
+    background: #FFA343;
+    color: black;
+    border-radius: 10px;
+}
+#footer .explore-button a:hover {
+    background: #ec8d27;
+}
+
+#footer .footer-left-bottom {
+    display: flex;
+    gap: 140px;
+    align-self: flex-start;
+    padding-top: 87px;
+}
+
+#footer .footer-left-bottom h4{
+    color: #FFD1A0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+#footer .footer-left-bottom h5 {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: -0.2px;
+}
+#footer p{
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 154px;
+    text-align: center;
+}
+/* FOOTER PART END */
